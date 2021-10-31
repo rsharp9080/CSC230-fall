@@ -58,7 +58,13 @@ nav > ul {line-height: 2em;}
 
 
 /* Footer Styles */
-
+body > footer address {
+   background-color: rgb(222,128,60);
+   color: white;
+   color: rgba(255, 255, 255, 0.7);
+   font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serrif;
+   text-align: center;
+}
 
 
 
