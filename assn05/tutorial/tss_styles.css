@@ -38,7 +38,7 @@ article.syllabus h1, article.syllabus h2 {background-color: rgb(255, 185, 255); 
 
 /* Aside and Blockquote Styles */
 aside {font-size: 0.8em;}
-asside blockquote {color: rgb(232, 165,116);}
+aside blockquote {color: rgb(232, 165,116); margin: 20px 5px;}
 
 
 
