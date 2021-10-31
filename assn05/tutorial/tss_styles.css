@@ -24,7 +24,7 @@ body {color: rgb (91, 91, 91); background-color: ivory;}
 article#about_tss h1 {color: white; background-color: rgb(222, 128, 60);}
 article#about_tss h2 {color: white; background-color: rgb(235, 177, 131);}
 
-
+article.syllabus h1, article.syllabus h2 {background-color: rgb(255, 185, 255); color: rgb(101, 101, 101);}
 
 
 /* Aside and Blockquote Styles */
