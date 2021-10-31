@@ -52,6 +52,7 @@ nav > ul {line-height: 2em; list-style: none;}
 
 
 /* List Styles */
+article#about_tss ul { list-style-image: url(runicon.png);}
 article.syllabus ol {list-style-type: upper-roman;}
 article.syllabus ol ol {list-style-type: upper-alpha;}
 article.syllabus ol ol ol {list-style-type: decimal;}
