@@ -25,8 +25,8 @@ body > p {font-size: 1.1em; text-align: horizontal;}
 address {font-style: normal; font-size: 0.9em; padding-top: 10px; padding-bottom: 10px;}
 /* Navigation Styles */
 nav > a {font-family: 'Trebuchet MS', Helvetica, sans-serif; padding-top: 10px; padding-bottom: 10px;}
-nav > ul > li > a:link, nav > ul > li > a:visited {color: white; background-color: hsla(0, 0%, 100%, 0.7); text-decoration: none;}
-
+nav > ul > li > a:link, nav > ul > li > a:visited {color: white; background-color: hsla(0, 0%, 42%, 0.4); text-decoration: none;}
+nav > ul > li > a:hover, nav > ul > li > a:active {color: hsla(0, 0%, 100%, 0.7); background-color: hsla(0,0%,42%,0.7);} 
 
 /* Section Styles */
 
