@@ -45,7 +45,7 @@ asside blockquote {color: rgb(232, 165,116);}
 
 /* Navigation Styles */	
 nav { font-size: 0.8em;}
-nav > ul {line-height: 2em;}
+nav > ul {line-height: 2em; list-style: none;}
 
 
 
