@@ -21,8 +21,8 @@ body {color: rgb (91, 91, 91); background-color: ivory;}
 
 
 /* Heading Styles */
-h1 {color: white; background-color: rgb(222, 128, 60);}
-h2 {color: white; background-color: rgb(235, 177, 131);}
+article#about_tss h1 {color: white; background-color: rgb(222, 128, 60);}
+article#about_tss h2 {color: white; background-color: rgb(235, 177, 131);}
 
 
 
