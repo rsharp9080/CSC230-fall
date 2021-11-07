@@ -26,7 +26,7 @@ h2 {font-weight: normal;}
 
 /* Navigation Styles */
 nav > ul {list-style: none; line-height: 2em; font-size: 0.9em;}
-
+nav a:visited, nav a:link {text-decoration: none; color: rgb(43, 59, 125);}
 
 
 /* Article Styles */
