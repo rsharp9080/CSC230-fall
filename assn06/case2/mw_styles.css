@@ -20,7 +20,8 @@ footer {background-color: rgb(208, 184, 109); padding-top: 5px; padding-bottom: 
 address {font-style: normal; font-size: 0.9em; text-align: horizontal; padding-top: 10px; padding-bottom: 10px;}
 
 /* Heading Styles */
-
+h1 {font-weight: normal;}
+h2 {font-weight: normal;}
 
 
 /* Navigation Styles */
