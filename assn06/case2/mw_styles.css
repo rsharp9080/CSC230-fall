@@ -17,7 +17,7 @@
 html {background-color: rgb(173, 189, 227);}
 body {background-color: rgb(227, 210, 173); font-family: "Century Gothic, sans-serif";}
 footer {background-color: rgb(208, 184, 109); padding-top: 5px; padding-bottom: 5px;}
-address {font-style: normal; font-size: 0.9em; text-align: horizontal; padding-top: 10px; padding-bottom: 10px;}
+address {font-style: normal; font-size: 0.9em; text-align: center; padding-top: 10px; padding-bottom: 10px;}
 
 /* Heading Styles */
 h1 {font-weight: normal;}
@@ -25,7 +25,7 @@ h2 {font-weight: normal;}
 
 
 /* Navigation Styles */
-
+nav > ul {list-style: none; line-height: 2em; font-size: 0.9em;}
 
 
 
