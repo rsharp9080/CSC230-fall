@@ -43,4 +43,7 @@ section#rightColumn > nav.horizontalNavigation li {width: 25%;}
 
 
 /* Footer Styles */
-
+footer {clear: left; background-color: rgb(71, 52, 29);}
+footer > nav.verticalNavigation {float: left; width: 22%;}
+footer > section#contactInfo { float: left; width: 34%;}
+footer::after {clear: both; content: ""; display: table;}
