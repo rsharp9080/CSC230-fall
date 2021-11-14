@@ -27,7 +27,7 @@ header, ul, nav, li, a {-webkit-box-sizing: border-box; -moz-box-sizing: border-
 
 /* Page Header Styles */
 body > header > img {display: block; width: 70%; float: left;}
-body > header > nav {float: left; padding-left: 2%; padding-right: 2%; width: 30%;}
+body > header > nav.verticalnavigation {float: left; padding-left: 2%; padding-right: 2%; width: 30%; display: block; }
 
 
 
