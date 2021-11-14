@@ -27,7 +27,7 @@ header, ul, nav, li, a {-webkit-box-sizing: border-box; -moz-box-sizing: border-
 
 /* Page Header Styles */
 body > header > img {display: block; width: 70%; float: left;}
-body > header > nav.vertical li {float: left; padding-left: 2%; padding-right: 2%; width: 30%;}
+body > header > nav > li {float: left; padding-left: 2%; padding-right: 2%; width: 30%;}
 body > header > nav  a {display: block; width: 100%;}
 
 
@@ -38,7 +38,7 @@ body > nav.horizontal li {display: block; width: 12.5%; float: left;}
 
 
 /* Topics Styles */
-
+#topics > ul 
 
 
 
