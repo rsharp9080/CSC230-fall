@@ -53,5 +53,6 @@ hr {width: 50%; }
 ul.comments {width: 75%; margin-top: 40px; margin-bottom: 40px; margin-left: auto; margin-right: auto;}
 li.comments {width: 50%; display: block; float: left; margin-bottom: 30px; }
 #comments > li > img {display: block; width: 20%; float: left; margin-left: 5%; margin-right: 5%;}
+#comments > li > p {float: left; width: 70%;}
 /* Footer Styles */
 
