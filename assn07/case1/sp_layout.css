@@ -55,4 +55,4 @@ li.comments {width: 50%; display: block; float: left; margin-bottom: 30px; }
 #comments > li > img {display: block; width: 20%; float: left; margin-left: 5%; margin-right: 5%;}
 #comments > li > p {float: left; width: 70%;}
 /* Footer Styles */
-
+footer::after {clear: both; content: ""; display: table;}
