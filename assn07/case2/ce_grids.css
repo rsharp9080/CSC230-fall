@@ -19,7 +19,7 @@ div.row::after {clear: both; content: ""; display: table;}
 
 
 /* Grid Columns Styles */
-
+div.column {float: left;}
 
 
 
