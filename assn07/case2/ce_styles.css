@@ -16,6 +16,7 @@
 html {background-color: rgb(101, 101, 101);}
 body {background-color: white; font: Verdana, Geneva, Arial, sans-serif; margin-top: 20px; margin-bottom: 20px; margin-right: auto; margin-left: auto; width: 95%; max-width: 960px; min-width: 320px;}
 img {display: block; width: 100%;}
+nav a:link {text-decoration: none;}
 
 /* Body Header Styles */
 
