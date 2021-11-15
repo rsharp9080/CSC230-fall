@@ -26,7 +26,7 @@ body > header> nav a:link, nav a:visited {font-size: 0.9em; color: rgb(51, 51,51
 body > header > nav a:hover, nav a:active {color: rgb(255, 211, 211);}
 
 /* DIV Container Styles */
-
+div.container {padding-right: 8px; padding-bottom: 8px,}
 
 
 /* Footer Styles */
