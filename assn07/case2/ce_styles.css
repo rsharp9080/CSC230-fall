@@ -14,7 +14,7 @@
 
 /* Window and Body Styles */
 html {background-color: rgb(101, 101, 101);}
-body {background-color: white; font: Verdana, Geneva, Arial, sans-serif; margin-top: 20px; margin-bottom: 20px; margin-right: auto; margin-left: auto; width: 95%; max-width: 960px; min-width: 320px;}
+body {background-color: white; font: Verdana, Geneva, Arial, sans-serif; margin-top: 20px; margin-bottom: 20px; margin-right: auto; margin-left: auto; width: 95%; max-width: 960px; min-width: 320px; position: relative;}
 img {display: block; width: 100%;}
 nav a:link {text-decoration: none;}
 
@@ -30,3 +30,4 @@ div.container {padding-right: 8px; padding-bottom: 8px,}
 div.cell > a {display: block; width: 100%; padding-left: 8px; padding-top: 8px;}
 
 /* Footer Styles */
+footer {position: absolute; right: 8px; bottom: 8px; color: rgb( 143, 33, 36); text-align: right; font-size: 2vmin;}
