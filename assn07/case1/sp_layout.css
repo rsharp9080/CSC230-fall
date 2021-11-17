@@ -14,45 +14,137 @@
 */
 
 /* Window and Body Styles */
-html {height: 100%;}
-body {min-height: 100%; width: 95%; max-width: 960px; min-width: 640px; margin-left: auto; margin-right: auto; }
-header, ul, nav, li, a {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html {
+   height: 100%;
+}
+
+body {
+   min-height: 100%; 
+   width: 95%; 
+   max-width: 960px; 
+   min-width: 640px; 
+   margin-left: auto; 
+   margin-right: auto; 
+}
+
+header, ul, nav, li, a {
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
 
 
 /* Row Styles */
-ul.row::after {clear: both; content: ""; display:table;}
-ul.row {clear: both;}
+.row::after {
+   clear: both; 
+   content: ""; 
+   display: table;
+}
+
+/*ul.row {
+   clear: both;-
+}[--removed not needed*/
 
 
 
 /* Page Header Styles */
-body > header > img {display: block; width: 70%; float: left;}
-body > header > nav > li {float: left; padding-left: 2%; padding-right: 2%; width: 30%;}
-body > header > nav  a {display: block; width: 100%;}
+
+body > header > img {
+   display: block; 
+   width: 70%; 
+   float: left;
+}
+
+body > header > nav {  /*removed li */
+   float: left; 
+   padding-left: 2%; 
+   padding-right: 2%; 
+   width: 30%; 
+}
+
+body > header > nav a {
+   display: block; 
+   width: 100%;
+}
 
 
 
 /* Horizontal Navigation List Styles */
-body > nav.horizontal li {display: block; width: 12.5%; float: left;}
+nav.horizontal li { /* removed body   */
+   display: block; 
+   width: 12.5%; 
+   float: left;
+}
 
 
 
 /* Topics Styles */
-ul.topics {display: block; width: 20%; float: left; margin-left: 0%; margin-right: 1.5%;}
-ul.topics {margin-inline-start: 7.75%; margin-inline-end: 7.75%;}
-ul.topics img {display: block; width: 50%; margin-right: auto; margin-left: auto;}
+ul#topics li {  /* changed this to ul#topics li   */
+   display: block; 
+   width: 20%; 
+   float: left; 
+   margin-left: 0%; 
+   margin-right: 1.5%;
+}
+
+ul#topics li:first-of-type { /* changed to ul#topics li:first-of-type*/
+   /*margin-inline-start: 7.75%; 
+   margin-inline-end: 7.75%;----removed both to these and added margin-left: 7.75%;  */
+   margin-left: 7.75%; 
+}
+ul#topics li:last-of-type { /* added this whole thing  */
+   margin-right: 7.75%; /* changed to right was left */
+}
+ul#topics li img {/* added the # and li  */
+   display: block; 
+   width: 50%; 
+   /* margin-right: auto; 
+   margin-left: auto;---removed and added margin: 0 auto;  */
+   margin: 0 auto;
+}
 
 
 
 /* HR Styles */
-hr {width: 50%; }
+hr {
+   width: 50%; 
+}
 
 
 
 /* Customer Comment Styles */
-ul.comments {width: 75%; margin-top: 40px; margin-bottom: 40px; margin-left: auto; margin-right: auto;}
-li.comments {width: 50%; display: block; float: left; margin-bottom: 30px; }
-#comments > li > img {display: block; width: 20%; float: left; margin-left: 5%; margin-right: 5%;}
-#comments > li > p {float: left; width: 70%;}
+ul#comments {/* added #  */
+   width: 75%; 
+   /*margin-top: 40px; 
+   margin-bottom: 40px; 
+   margin-left: auto; 
+   margin-right: auto;--removed and added margin: 40px auto;  */
+   margin: 40px auto;
+}
+ul#comments li {  /*added ul# comments li instead */
+   width: 50%; 
+   display: block; 
+   float: left; 
+   margin-bottom: 30px;
+ }
+
+ul#comments li img  {  /* added # and removed > >  */
+   display: block; 
+   width: 20%; 
+   float: left; 
+   /*margin-left: 5%; 
+   margin-right: 5%;---removed this and added this margin: 0 5%; */
+   margin: 0 5%;
+}
+
+ul#comments li p {/* added # and removed > >  */
+   float: left; 
+   width: 70%;
+}
+
 /* Footer Styles */
-footer::after {clear: both; content: ""; display: table;}
+footer {/* renamed to just footer */
+   clear: both; 
+   /*content: ""; 
+   display: table;--removed not needed */
+}
