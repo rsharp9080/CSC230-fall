@@ -144,7 +144,7 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-
+ul.submenu {display: none;}
 
 
 
