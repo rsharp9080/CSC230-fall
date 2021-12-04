@@ -174,4 +174,8 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {display: block;}
    =========================================
    */
 
-@media only screen and (min-width: 769px){}
+@media only screen and (min-width: 769px){
+   ul.submenu {background: transparent; box-shadow: none; display: block; position: relative; width: 100%;}
+   nav.horizontal::after {clear: both; content: ""; display: table;}
+   nav.horizontal a.submenutitle {display: none;}
+}
