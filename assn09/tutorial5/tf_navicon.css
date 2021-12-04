@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Reece Sharp
+   Date:     12/3/2021
    
    Filename: tf_navicon.css
    
@@ -21,7 +21,7 @@
    ===========
 */
 
-
+a#navicon {display: none;}
 
 
 /* ===============================
@@ -30,6 +30,7 @@
 */
 
 @media only screen and (max-width: 480px) {
-
-   
+a#navicon {display: none;}
+nav.horizontal ul {display: none;}   
+a#navicon:hover+ul, nav.horizontal ul:hover {display: block;}
 }
