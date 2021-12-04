@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Reece Sharp
+   Date:     12/3/2021
    
    Filename: tf_flex.css
    
@@ -20,7 +20,7 @@
    Base Flex Styles
    ================
 */
-
+body { display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap;}
 
 
 
