@@ -22,7 +22,7 @@ table.schedule th, table.schedule td {border: 1px solid gray;}
 
 
 /* Table Caption Styles */
-
+table.schedule caption {caption-side: bottom; text-align: right;}
 
 
 /* Row Group Styles */
