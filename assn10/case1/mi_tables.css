@@ -26,7 +26,7 @@ col#dataCols {width: 19%;}
 /* Table Header Styles */
 table tr th {height: 60px;}
 table thead tr:first-of-type th:first-of-type {font-size: 2em;}
-
+table thead tr:first-of-type th:not(:first-of-type) {background-color: transparent; color: black;}
 
 
 
