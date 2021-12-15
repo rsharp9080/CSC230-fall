@@ -10,10 +10,20 @@
         filename: finalExam.css
 
 */
+/* Body Styles*/
+body {font-family: sans-serif; font: black; font-size: 16pt; width: 85%; margin: auto; background-color: rgb(105, 105, 105);}
+
+/* Nav Styles */
+Nav {background-color: rgb(224, 255, 255); text-align: top; vertical-align: center; width: 25%; margin: 0px; padding: 0px;}
+
 
 /* Header Styles*/
 header h1 {font-size: 36pt; margin-top: 35px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 15px; padding-left: 15px; padding-right: 0px; padding-bottom: 0px; background-color: rgb(224, 255, 255);}
 header h3 {font-size: 24pt; margin: 0px; padding-bottom: 15px; padding-left: 15px; padding-right: 0px; padding-top: 0px; background-color: rgb(224, 255, 255);}
-
+header img {float: right;}
+/* Section Styles */
+table th#About_Me , table th#Assignments {font-style: Arial; Font-size: 22pt; text-align: left; letter-spacing: 2px; margin: 0px; padding: 15px 0px 0px 15px; background-color: rgb(191, 221, 0);}
+table th {font-style: Arial; font-size: 16pt; text-decoration: bold; text-align: center;  background-color: rgb(97, 22, 16);}
+table td {background-color: rgb(250, 22, 16);}
 
 
