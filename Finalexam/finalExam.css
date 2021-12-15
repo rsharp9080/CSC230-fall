@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*
+        CSC230 
+        Final Exam
+
+        Author: Reece Sharp
+        Date: 12/15/2021
+
+        filename: finalExam.css
+
+*/
+
+/* Header Styles*/
+header h1 {font-size: 36pt; margin-top: 35px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; padding-top: 15px; padding-left: 15px; padding-right: 0px; padding-bottom: 0px; background-color: rgb(224, 255, 255);}
+header h3 {font-size: 24pt; margin: 0px; padding-bottom: 15px; padding-left: 15px; padding-right: 0px; padding-top: 0px; background-color: rgb(224, 255, 255);}
+
+
+
